@@ -28,8 +28,8 @@ clone this repository and run as follows (assuming your [\$GOPATH is set](https:
 
 
 ```shell
-go get github.com/aquasecurity/linux-bench
-cd $GOPATH/src/github.com/aquasecurity/linux-bench
+go get github.com/Sentinel-One/linux-bench
+cd $GOPATH/pkg/mod/github.com/!sentinel-!one/linux-bench
 go build -o linux-bench .
 
 # See all supported options
@@ -52,12 +52,3 @@ Where `<version>` is the version of linux cis for which the test applies.
 
 We welcome PRs and issue reports.
 
-[actions]: https://github.com/aquasecurity/linux-bench/actions
-[build-action-img]: https://github.com/aquasecurity/linux-bench/workflows/build/badge.svg
-[cov-img]: https://codecov.io/github/aquasecurity/linux-bench/branch/main/graph/badge.svg
-[cov]: https://codecov.io/github/aquasecurity/linux-bench
-[license-img]: https://img.shields.io/badge/License-Apache%202.0-blue.svg
-[license]: https://opensource.org/licenses/Apache-2.0
-[release-img]: https://img.shields.io/github/release/aquasecurity/linux-bench.svg
-[release]: https://github.com/aquasecurity/linux-bench/releases
-[release-action-img]: https://github.com/aquasecurity/linux-bench/workflows/release/badge.svg
