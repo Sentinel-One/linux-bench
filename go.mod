@@ -1,4 +1,4 @@
-module github.com/aquasecurity/linux-bench
+module github.com/Sentinel-One/linux-bench
 
 go 1.13
 
