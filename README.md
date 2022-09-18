@@ -28,8 +28,8 @@ clone this repository and run as follows (assuming your [\$GOPATH is set](https:
 
 
 ```shell
-go get github.com/Sentinel-One/linux-bench
-cd $GOPATH/pkg/mod/github.com/!sentinel-!one/linux-bench
+go install github.com/Sentinel-One/linux-bench@<version_tag>
+cd $GOPATH/pkg/mod/github.com/!sentinel-!one/linux-bench@<version-tag>
 go build -o linux-bench .
 
 # See all supported options
